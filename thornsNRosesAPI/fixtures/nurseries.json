@@ -1,0 +1,16 @@
+[
+    {
+        "model": "thornsNRosesAPI.nursery",
+        "pk": 1,
+        "fields": {
+            "business_name": "East Side Nursery"
+        }
+    },
+    {
+        "model": "thornsNRosesAPI.nursery",
+        "pk": 2,
+        "fields": {
+            "business_name": "Southern Blooms"
+        } 
+    }
+]

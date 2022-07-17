@@ -1,0 +1,18 @@
+[
+    {
+        "model": "thornsNRosesAPI.distributor",
+        "pk": 1,
+        "fields": {
+            "business_name": "Import Flowers",
+            "markup_percentage": 10
+        }
+    },
+    {
+        "model": "thornsNRosesAPI.distributor",
+        "pk": 2,
+        "fields": {
+            "business_name": "World Flowers",
+            "markup_percentage": 12
+        } 
+    }
+]

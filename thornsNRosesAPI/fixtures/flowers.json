@@ -1,0 +1,83 @@
+[
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 1,
+        "fields": {
+            "color": "White",
+            "species": "Daisy"
+        }
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 2,
+        "fields": {
+            "color": "Yellow",
+            "species": "Daffodil"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 3,
+        "fields": {
+            "color": "Purple",
+            "species": "Hydrangea"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 4,
+        "fields": {
+            "color": "Red",
+            "species": "Rose"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 5,
+        "fields": {
+            "color": "Yellow",
+            "species": "Tulip"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 6,
+        "fields": {
+            "color": "Pink",
+            "species": "Tulip"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 7,
+        "fields": {
+            "color": "Fushia",
+            "species": "Dahlia"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 8,
+        "fields": {
+            "color": "White",
+            "species": "Orchid"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 9,
+        "fields": {
+            "color": "Pink",
+            "species": "Snap Dragon"
+        } 
+    },
+    {
+        "model": "thornsNRosesAPI.flower",
+        "pk": 10,
+        "fields": {
+            "color": "Orange",
+            "species": "Marigold"
+        } 
+    }
+
+]

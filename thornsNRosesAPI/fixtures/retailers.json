@@ -1,0 +1,22 @@
+[
+    {
+        "model": "thornsNRosesAPI.retailer",
+        "pk": 1,
+        "fields": {
+            "business_name": "Bloom",
+            "address": "999 Myrtle Street",
+            "markup_percentage": 15,
+            "distributor": 1
+        }
+    },
+    {
+        "model": "thornsNRosesAPI.retailer",
+        "pk": 2,
+        "fields": {
+            "business_name": "FLWR",
+            "address": "555 Woodland Street",
+            "markup_percentage": 15,
+            "distributor": 2
+        } 
+    }
+]
