@@ -17,11 +17,20 @@ from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
 from django.conf.urls import include
+from thornsNRosesAPI.views.distributor_view import DistributorView
 
 from thornsNRosesAPI.views.flower_view import FlowerView
+from thornsNRosesAPI.views.nurseryFlowerPrice_view import NurseryFlowerPriceView
+from thornsNRosesAPI.views.nursery_view import NurseryView
+from thornsNRosesAPI.views.retailer_view import RetailerView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'flowers', FlowerView, 'flower')
+router.register(r'nurseries', NurseryView, 'nursery')
+router.register(r'distributors', DistributorView, 'distributor')
+router.register(r'retailers', RetailerView, 'retailer')
+router.register(r'nurseryFlowerPrices', NurseryFlowerPriceView, 'nurseryFlowerPrice')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
