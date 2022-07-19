@@ -1,0 +1,13 @@
+[
+    {
+        "model": "thornsNRosesAPI.thornUser",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "distributor_employee": true,
+            "nursery_employee": false, 
+            "retail_employee": false, 
+            "event_planner": false
+        }
+    }
+]

@@ -3,3 +3,4 @@ from .distributor import Distributor
 from .nursery import Nursery
 from .retailer import Retailer
 from .nurseryFlowerPrice import NurseryFlowerPrice
+from .thornUser import ThornUser
