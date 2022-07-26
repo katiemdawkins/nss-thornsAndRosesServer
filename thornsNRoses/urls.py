@@ -18,7 +18,7 @@ from django.urls import path
 from rest_framework import routers
 from django.conf.urls import include
 from thornsNRosesAPI.views.distributor_view import DistributorView
-
+from thornsNRosesAPI.views import login_user, register_user
 from thornsNRosesAPI.views.flower_view import FlowerView
 from thornsNRosesAPI.views.nurseryFlowerPrice_view import NurseryFlowerPriceView
 from thornsNRosesAPI.views.nursery_view import NurseryView
@@ -34,7 +34,7 @@ router.register(r'nurseryFlowerPrices', NurseryFlowerPriceView, 'nurseryFlowerPr
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('register', register_user),
-    #path('login', login_user),
+    path('register', register_user),
+    path('login', login_user),
     path('', include(router.urls)),
 ]
